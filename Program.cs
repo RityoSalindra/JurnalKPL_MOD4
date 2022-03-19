@@ -13,7 +13,7 @@ namespace modul4_1302204014
         {
             Console.WriteLine("Hasil Penjumlahan Tiga Angka : " + Penjumlahan.JumlahTigaAngka<float>(20, 40, 14));
 
-            SimpleDataBase<double> db = new SimpleDataBase<double>();
+            SimpleDataBase<float> db = new SimpleDataBase<float>();
             db.AddNewData(20);
             db.AddNewData(40);
             db.AddNewData(14);
